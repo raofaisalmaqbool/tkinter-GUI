@@ -11,7 +11,7 @@ p1 = PhotoImage(file = 'img/logo.png')
 root.iconphoto(False, p1)
  
 
-frame = LabelFrame(root, text="this is window", ipadx=50, ipady=50)
+frame = LabelFrame(root, text="this is window")
 frame.pack(padx=50, pady=50)
 
 b1 = Button(frame, text="button 1") # button 1 show inside the frame
