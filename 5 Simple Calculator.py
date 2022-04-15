@@ -79,6 +79,9 @@ class Operation_class:
 
 obj = Operation_class()
 
+
+        
+
 button_7 = Button(root, text="7", padx=15, pady=10,
                   command=lambda: button_click(7)).grid(row=1, column=0)
 button_8 = Button(root, text="8", padx=15, pady=10,
